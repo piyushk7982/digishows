@@ -88,10 +88,6 @@ button,input,textarea,select{font:inherit}
 .cursor-glow{position:fixed;width:240px;height:240px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(139,92,246,.09),transparent 65%);transform:translate(-50%,-50%);z-index:-1}
 @media(max-width:900px){.nav{display:none}.nav-cta{margin-left:auto;margin-right:14px}.menu-toggle{display:block}.hero-grid,.contact-grid,.split,.audience-box{grid-template-columns:1fr}.hero-grid{gap:40px}.hero-visual{min-height:430px}.service-card,.service-card:nth-child(4),.service-card:nth-child(5){grid-column:span 6}.process-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{gap:50px}.audience-box{gap:35px}}
 @media(max-width:640px){.container{width:min(100% - 30px,var(--max))}.section{padding:85px 0}.site-header{height:68px;padding:0 15px}.nav-cta{display:none}.hero{padding-top:115px}.hero h1{font-size:48px}.hero-text{font-size:15px}.hero-trust{gap:17px}.dashboard-card{transform:none;padding:17px}.dash-title{font-size:20px}.chart{height:170px}.floating-card{transform:scale(.84)}.float-one{left:-4%;top:5%}.float-two{right:-5%;bottom:5%}.service-card,.service-card:nth-child(4),.service-card:nth-child(5){grid-column:span 12}.process-grid,.pricing-grid{grid-template-columns:1fr}.process-item{min-height:180px}.process-item h3{margin-top:30px}.form-row{grid-template-columns:1fr}.footer-main{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}.footer-bottom{flex-direction:column;gap:8px}.audience-box{padding:30px}.intro-copy h2,.section-head h2,.process h2,.audience h2,.contact h2{font-size:39px}}
-/* =========================================================
-   DIGISHOWS PREMIUM HERO
-   ========================================================= */
-
 .premium-hero{
   position:relative;
   min-height:100vh;
