@@ -61,3 +61,22 @@ style.textContent = `
   .nav.open a:last-child{border-bottom:0}
 }`;
 document.head.appendChild(style);
+/* =========================================================
+   SERVICE CARD MOUSE SPOTLIGHT
+   ========================================================= */
+
+document.querySelectorAll('.service-card').forEach(card => {
+
+  card.addEventListener('mousemove', (event) => {
+
+    const rect = card.getBoundingClientRect();
+
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    card.style.setProperty('--mx', `${x}px`);
+    card.style.setProperty('--my', `${y}px`);
+
+  });
+
+});
