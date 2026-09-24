@@ -444,12 +444,6 @@ button,input,textarea,select{font:inherit}
 
   font-size:10px;
 }
-
-
-/* =========================================================
-   DASHBOARD
-   ========================================================= */
-
 .premium-dashboard-wrap{
   position:relative;
 
@@ -756,10 +750,6 @@ button,input,textarea,select{font:inherit}
 }
 
 
-/* =========================================================
-   FLOATING CARDS
-   ========================================================= */
-
 .floating-service-card{
   position:absolute;
 
@@ -987,11 +977,6 @@ button,input,textarea,select{font:inherit}
 
   margin-left:8px;
 }
-
-
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
 
 @media(max-width:1050px){
 
